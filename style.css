@@ -139,3 +139,14 @@ a {
     /* Safari support */
     border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
+
+/* ===== GLOW CURSOR ON HOVER ===== */
+.sidebar_menu a,
+.sidebar_menu i {
+    cursor: pointer;
+}
+
+.sidebar_menu a:hover {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8),
+        0 0 16px rgba(255, 255, 255, 0.6);
+}
