@@ -128,3 +128,14 @@ a {
 #check:checked~.sidebar_menu.btn_two i {
     opacity: 1;
 }
+
+/* ===== GLASSMORPHISM EFFECT ===== */
+.sidebar_menu {
+    background: rgba(255, 255, 255, 0.12);
+    /* translucent */
+    backdrop-filter: blur(12px);
+    /* glass blur */
+    -webkit-backdrop-filter: blur(12px);
+    /* Safari support */
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
