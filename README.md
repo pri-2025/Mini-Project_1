@@ -1,57 +1,75 @@
 # Sidebar Navigation Menu (HTML & CSS)
 
 ## Project Overview
-This project is a beginner-level mini project developed as part of the **Apna College Sigma 9.0 Web Development Course**.
+This is a beginner-level mini project developed as part of the **Apna College Sigma 9.0 Web Development Course**.
 
-The task was to build an interactive **sidebar navigation menu** on a demo webpage with a camera background image, using **only HTML and CSS**, without any JavaScript. The main objective was to understand CSS-based interactivity, layout structuring, and transitions.
+The objective of the project was to build an interactive **sidebar navigation menu** on a demo webpage with a camera-themed background image, using **only HTML and CSS**. JavaScript was strictly not allowed.
+
+The project focuses on understanding CSS-based interactivity, layout positioning, transitions, and modern UI effects.
 
 ---
 
-## Core Concept
-### Sidebar Toggle Using Pure CSS
+## Core Concept: Pure CSS Sidebar Toggle
+The sidebar open and close functionality is implemented entirely using CSS without JavaScript. This is achieved using:
 
-The sidebar open and close functionality is implemented entirely using CSS through:
 - An invisible `input[type="checkbox"]`
-- `label` elements linked to the checkbox
+- `label` elements acting as buttons
 - Hamburger (☰) and close (✖) icons
 - The `:checked` pseudo-class
-- CSS sibling selectors (`~`)
-- Smooth transition effects
+- General sibling selectors (`~`)
+- CSS transitions for smooth animations
 
-This approach eliminates the need for JavaScript while maintaining full interactivity.
+The hamburger and cross icons are implemented as **labels**, and transitions are applied to visually animate the opening and closing of the sidebar.
 
 ---
 
 ## Features Implemented (Course Requirements)
-- Sidebar navigation menu with open and close icons
+- Sidebar navigation menu with toggle functionality
+- Hamburger icon to open the sidebar
+- Cross icon to close the sidebar
 - Smooth sliding animation using CSS transitions
 - Hover effects on menu items and icons
-- Font Awesome icons integration
+- Font Awesome icon integration
 - Full-screen background image layout
-- Clean structure using fixed and absolute positioning
 - No JavaScript used
 
 ---
 
 ## Enhancements Added Independently
-To improve the UI and make the project more polished and resume-ready, the following enhancements were added:
+To make the project more polished and resume-ready, the following enhancements were added beyond the course requirements:
 
 ### 1. Glassmorphism Effect
-- Frosted glass sidebar design using:
+- Frosted glass UI using:
   - `backdrop-filter: blur()`
   - Semi-transparent backgrounds
   - Subtle borders and shadows
 
-### 2. Custom Hover Glow Effect
+### 2. Hover Glow Effect
 - Glow-style hover effect on menu items using `text-shadow`
 - Improves visual feedback and modern UI appearance
 
 ### 3. Responsive Design
-- Media queries added for better usability on:
+- Media queries added for:
   - Mobile devices
   - Tablets
   - Small laptops
-- Adjusted sidebar width, font sizes, and spacing for different screen sizes
+- Sidebar width, font sizes, and spacing adjust based on screen size
+
+---
+
+## Screenshots
+
+### Landing Page
+![Landing Page](ScreenShots/LandingPage.png)
+
+### Sidebar Open (Hamburger Clicked)
+![Sidebar Open](ScreenShots/Hamburger_Clicked.png)
+
+### Hover Glow Effect
+![Hover Glow Effect](ScreenShots/Hover_Glow.png)
+
+### Icon Hover Enlargement
+![Icon Enlargement](ScreenShots/Icon_enlargement.png)
 
 ---
 
@@ -67,8 +85,9 @@ To improve the UI and make the project more polished and resume-ready, the follo
 - Implemented UI interactivity without JavaScript
 - Practical understanding of:
   - CSS transitions
-  - Pseudo-classes
   - Checkbox hack
+  - Pseudo-classes
+  - Sibling selectors
   - Responsive media queries
 - Learned to enhance UI using modern CSS effects
 
@@ -82,4 +101,4 @@ To improve the UI and make the project more polished and resume-ready, the follo
 ---
 
 ## Note
-This project was created for learning and practice purposes as part of a structured web development course, with additional UI enhancements added independently.
+This project was created for learning and practice purposes as part of a structured web development course. Additional UI enhancements were implemented independently to improve usability and visual appeal.
