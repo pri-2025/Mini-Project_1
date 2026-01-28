@@ -129,7 +129,7 @@ a {
     opacity: 1;
 }
 
-/* ===== GLASSMORPHISM EFFECT ===== */
+/* GLASSMORPHISM EFFECT */
 .sidebar_menu {
     background: rgba(255, 255, 255, 0.12);
     /* translucent */
@@ -140,7 +140,7 @@ a {
     border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-/* ===== GLOW CURSOR ON HOVER ===== */
+/* GLOW CURSOR ON HOVER */
 .sidebar_menu a,
 .sidebar_menu i {
     cursor: pointer;
@@ -149,4 +149,51 @@ a {
 .sidebar_menu a:hover {
     text-shadow: 0 0 8px rgba(255, 255, 255, 0.8),
         0 0 16px rgba(255, 255, 255, 0.6);
+}
+
+/* RESPONSIVE DESIGN */
+
+/* Small devices (phones) */
+@media (max-width: 480px) {
+
+    .sidebar_menu {
+        width: 240px;
+    }
+
+    .sidebar_menu .logo a {
+        font-size: 18px;
+    }
+
+    .sidebar_menu .menu i,
+    .sidebar_menu .menu a {
+        font-size: 16px;
+    }
+
+    .btn_one i {
+        font-size: 26px;
+    }
+}
+
+/* Medium devices (tablets) */
+@media (max-width: 768px) {
+
+    .sidebar_menu {
+        width: 260px;
+    }
+
+    .sidebar_menu .menu li {
+        padding: 12px 16px;
+    }
+
+    .sidebar_menu .social_media {
+        left: 20%;
+    }
+}
+
+/* Large devices (small laptops) */
+@media (max-width: 1024px) {
+
+    .sidebar_menu {
+        width: 280px;
+    }
 }
